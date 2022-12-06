@@ -8,6 +8,7 @@ body {
   margin: 0;
   background-image: url("https://c.wallhere.com/photos/85/9a/clouds_sky_sun_beams_day-720702.jpg!d");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   font-family: 'Roboto Mono', monospace;
 }
