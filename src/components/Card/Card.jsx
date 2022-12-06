@@ -32,7 +32,7 @@ const Card = ({loadingData, showData, weather}) => {
                                         <h5 className="cardText">Temperatura maxima: {(weather.main.temp_max - 273.15).toFixed(1)}°C</h5>
                                         <h5 className="cardText">Temperatura minima: {(weather.main.temp_min - 273.15).toFixed(1)}°C</h5>
                                         <h5 className="cardText">Sensacion termica: {(weather.main.feels_like - 273.15).toFixed(1)}°C</h5>
-                                        <h5 className="cardText">Velocidad del viento: {weather.wind.speed}m/s</h5>
+                                        <h5 className="cardText">Velocidad del viento: {weather.wind.speed} m/s</h5>
                                         <h5 className="cardText">Humedad: {weather.main.humidity}% </h5>
                                     </div>
                                 </div>
