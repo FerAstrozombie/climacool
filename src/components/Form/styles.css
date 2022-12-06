@@ -1,0 +1,43 @@
+.input{
+    width: 380px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    border-bottom: 1px solid #FFC800;
+    outline: none;
+}
+.boton{
+    width: 100px;
+    height: 24px;
+    border: none;
+    /*espacio alrededor texto*/
+    background-color: #FFC800;
+    /*color botón*/
+    color: black;
+    /*color texto*/
+    text-decoration: none;
+    /*decoración texto*/
+    text-transform: uppercase;
+    /*capitalización texto*/
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 480px){
+    .input{
+        width: 150px;
+    }
+    .boton{
+        height: 21px;
+    }
+}
